@@ -13,14 +13,14 @@ a {
     background-color: #ffffff;
     height: 85px;
     border-bottom: 2px solid #CCCCCC;
-    position: fixed; 
+    position: fixed;
     z-index: 3;
     top: 0;
     left: 0;
     right: 0;
     width: 100%;
     margin: 0 auto;
-}
+} 
 
 .wrapper {
     width: 980px;
@@ -620,101 +620,51 @@ http://upenn.bootcampcontent.com/upenn-bootcamp/UPENN201801FSF4-Class-Repository
     }
 
 
-    /*    up to 640px, the PORTFOLIO screen will look like this: */
-
-    
-    .light {
-        margin-top: 170px;
-        width: 550px;
-        height: 2340px;
-        margin-left: 50px;
-        margin-bottom: 0px;
-    }
-
-    .floatone {
-        float: initial;
-    }
-
-    .yuhone {
-        width: 480px;
-        height: 400px;
-        margin-bottom: 25px;
-    }
-
-    .captionone {
-        margin-top: 180px;
-        width: 480px;
-        margin-right: -205px;
-    }
-
-    .yuhtwo {
-        width: 480px;
-        height: 400px;
-        margin-bottom: 25px;
-        margin-top: 10px;
-        margin-left: -70px;
-    }
-
-    .captiontwo {
-        margin-top: 180px;
-        width: 480px;
-        margin-right: -100px;
-    }
-
-    .floatthree {
-        float: initial;
-    }
-
-    .yuhthree {
-        width: 480px;
-        height: 400px;
-        margin-top: 12px;
-        margin-bottom: 0px;
-    }
-
-    .triviaGameStyle {
-        margin-right: -205px;
-        margin-top: 750px;
-    }
-
-    .boxone {
-        margin-bottom: 100px;
-    }
-
-    .floatfive {
-        float: initial;
-    }
-
-    .yuhfour {
-        width: 480px;
-        height: 400px;
-        margin-left: -69px;
-        margin-bottom: 40px;
-    }
-
-    .yuhfive {
-        width: 480px;
-        height: 400px;
-    }
-
-    .rockStyle {
-        margin-top: 1390px;
-        margin-right: -205px;
-    }
-
-    .RPGStyle {
-        margin-top: 188px;
-    }
-    
-
     /*    up to 640px, the CONTACT screen will look like this: */
 
-    .contact {
-        margin-top: 170px;
-        width: 550px;
-        height: 600px;
-        margin-left: 50px;
-    }
+    
+
+
+
+
+
+
+
+    /*    until we hit 640px, the PORTFOLIO screen will look like this: */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+@media screen and (max-width: 768px) {
+
+    /*need to make sure this satisfies 
+ 
+     index
+ 
+     portfolio
+ 
+     contact pages 
+     
+     
+     */
+ 
+ 
+ } 
+
+
+@media screen and (max-width: 980px) {
 
     .wrapper {
         width: 700px;
@@ -725,72 +675,6 @@ http://upenn.bootcampcontent.com/upenn-bootcamp/UPENN201801FSF4-Class-Repository
         width: 700px;
         margin: 0 auto;
     }
-
-}
-
-
-@media screen and (max-width: 768px) and (min-width: 640px)  {
-
-   /* between 640 and 768px, the INDEX screen will look like this: */
-   
-   .connect {
-       position: relative;
-       z-index: 2;
-       height: 200px;
-       width: 700px;
-       margin-left: 30px;   
-       margin-top: 40px;
-       margin-bottom: 140px;
-   }
-
-   .connectme {
-       text-align: left;
-       width: 630px;
-   }
-
-   .about {
-       margin-left: 35px;
-       width: 700px;
-   }
-
-   .footer {
-       z-index: 3;
-   }
-   
-   .wrap {
-       margin-left: 230px;
-   }
-
-   .light {
-      margin-left: 30px;
-      margin-bottom: 0px;
-      width: 700px;
-   }
-
-   .yuhone {
-    width: 300px;
-   }
-
-    .yuhtwo {
-    width: 300px;
-    }
-   
-    /* between 640 and 768px, the PORTFOLIO screen will look like this: */
-
-
-
-
-
-     /* between 640 and 768px, the CONTACT screen will look like this: */
-
-
- 
- } 
-
-
-@media screen and (max-width: 980px) {
-
-   
 
    
     
