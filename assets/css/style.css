@@ -726,6 +726,8 @@ http://upenn.bootcampcontent.com/upenn-bootcamp/UPENN201801FSF4-Class-Repository
         margin: 0 auto;
     }
 
+
+
 }
 
 
@@ -757,53 +759,57 @@ http://upenn.bootcampcontent.com/upenn-bootcamp/UPENN201801FSF4-Class-Repository
        z-index: 3;
    }
    
-   .wrap {
-       margin-left: 230px;
-   }
-
-   .light {
-      margin-left: 30px;
-      margin-bottom: 0px;
-      width: 700px;
-   }
-
-   .yuhone {
-    width: 300px;
-   }
-
-    .yuhtwo {
-    width: 300px;
-    }
+  
+  
    
     /* between 640 and 768px, the PORTFOLIO screen will look like this: */
 
-
-
+    .wrap {
+        margin-left: 230px;
+    }
+ 
+    .light {
+       margin-left: 0px;
+       margin-bottom: 0px;
+       width: 650px;
+    }
+ 
 
 
      /* between 640 and 768px, the CONTACT screen will look like this: */
+.holder {
+    margin-left: 60px;
+}
 
-
+.connect {
+    margin-left: 60px;
+    width: 650px;
+}
  
+.connectme {
+    width: 580px;
+}
+
  } 
 
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 980px) and (min-width: 768px) {
+
+   /* between 980 and 768px, the INDEX screen will look like this: */
 
    
 
+
+
+   /* between 980 and 768px, the CONTACT screen will look like this: */
+
+
+
+
+   /* between 980 and 768px, the PORTFOLIO screen will look like this: */
+
    
-    
-    /*need to make sure this satisfies 
 
-    index
-
-    portfolio
-
-    contact pages 
-    
-    
-    */
 
 }
 
